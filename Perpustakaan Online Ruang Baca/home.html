@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- karakter encoding yang digunakan adalah UTF-8 -->
+    <meta charset="UTF-8">
+    <!-- Mengatur kompatibilitas IE agar menggunakan mode Edge. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Mengatur viewport untuk responsivitas pada perangkat mobile. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Menyertakan file CSS eksternal untuk styling. -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Menyertakan library Font Awesome untuk ikon. -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- judul halaman yang akan ditampilkan pada tab browser. -->
+    <title>Project</title>
+</head>
+
+<body>
+    <!-- elemen div sebagai wadah utama kelas "container". -->
+    <div class="container">
+        <!--awal header-->
+        <header>
+            <!-- ink ke halaman home dengan kelas "logo". -->
+            <!-- Menggunakan elemen span untuk memisahkan teks "Ruang" dan "Baca". -->
+            <a href="home.html" class="logo"><span>Ruang</span>Baca</a>
+            <!-- Div dengan ikon menu dari Font Awesome (fas fa-bars). -->
+            <div id="menu" class="fas fa-bars"></div>
+            <!-- Elemen navigasi dengan kelas "navbar". -->
+            <nav class="navbar">
+                <!-- Link ke halaman form input dengan teks "ruang pinjam". -->
+                <a href="form_input.php">ruang pinjam</a>
+                <!-- Link ke halaman data display dengan teks "data pinjam". -->
+                <a href="data_display.php">data pinjam</a>
+                <!-- Link ke halaman anggota dengan teks "our team". -->
+                <a href="anggota.html">our team</a>
+            </nav>
+        </header>
+        <!--akhir header-->
+
+        <!--awal home section-->
+        <section class="home">
+            <!-- Elemen div dengan kelas "content". -->
+            <div class="content">
+                <!-- Header level 3 dengan teks yang dipusatkan menggunakan tag <center>. -->
+                <br><h3><center>Ruang Baca – Layanan Perpustakaan Digital</center></h3><br>
+                <!-- Paragraf dengan kutipan dari Ika Natassa. -->
+                <p>"Toko buku itu bukti nyata bahwa keberagaman selera bisa kumpul di bawah satu atap tanpa harus saling mencela." - Ika Natassa, Penulis.</p>
+                <br>
+                <p>Teknologi informasi telah berperan penting dalam melahirkan otomasi perpustakaan. Hal ini dipicu oleh tuntutan pemakai perpustakaan terhadap kualitas layanan perpustakaan. Sebagai contoh, perkembangan internet dan perkembangan sumber informasi baru yang begitu cepat sehingga menuntut perpustakaan untuk melakukan suatu langkah perubahan, baik dalam bentuk koleksi maupun dalam hal pola pelayanannya. Ruang Baca hadir untuk memfasilitasi minat baca masyarakat serta menggalakkan literasi.</p>
+                <!-- Link ke halaman form input dengan kelas "btn", dipusatkan menggunakan tag <center>. -->
+                <center><a href="form_input.php" class="btn">mulai meminjam buku</a></center><br><br>
+            </div>
+        </section>
+        <!--akhir home section-->
+
+        <div class="content">
+            <br><h3><center>Buku dengan rating tertinggi bulan ini</center></h3><br>
+        </div>
+
+        <!--awal course section-->
+        <!-- berfungsi sebagai kontainer untuk menampilkan buku-buku dengan rating tertinggi. -->
+        <section class="course">
+            <!-- kontainer untuk setiap buku. -->
+            <div class="box">
+            <a href="sinopsis/sinopsis1.html">
+                <!-- Gambar buku dengan sumber img1.png dan atribut alt "1". -->
+                <img src="img/im1.png" alt="1">
+                <!-- Elemen div dengan kelas "star", untuk menampilkan rating bintang. -->
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <!-- judul buku dan nama penulis. -->
+                <h3>A01 Hujan - Tere Liye</h3>
+                <!-- Paragraf dengan deskripsi atau kutipan dari buku. -->
+                <p>Bukan melupakan yang jadi masalahnya. Tapi menerima. Barang siapa yang bisa menerima, maka dia akan bisa melupakan, hidup bahagia. Tapi jika dia tidak bisa menerima, dia tidak akan pernah bisa melupakan.</p>
+            </a>
+            </div>
+
+            <div class="box">
+            <a href="sinopsis/sinopsis2.html">
+                <img src="img/im2.png" alt="2">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>A02 Pulang - Tere Liye</h3>
+                <p>“Aku tahu sekarang, lebih banyak luka di hati bapakku dibanding di tubuhnya. Juga mamakku, lebih banyak tangis di hati Mamak dibanding di matanya.”</p>
+            </a>
+            </div>
+
+            <div class="box">
+            <a href="sinopsis/sinopsis3.html">
+                <img src="img/im3.png" alt="3">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>A03 Pergi - Tere Liye</h3>
+                <p>Sebuah kisah tentang menemukan tujuan, ke mana hendak pergi, melalui kenangan demi kenangan masa lalu, pertarungan hidup-mati, untuk memutuskan ke mana langkah kaki akan dibawa.</p>
+            </a>
+            </div>
+
+            <div class="box">
+            <a href="sinopsis/sinopsis4.html">
+                <img src="img/im4.png" alt="4">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>A04 Bumi - Tere Liye</h3>
+                <p>“Apa pun yang terlihat, boleh jadi tidak seperti yang kita lihat. Apa pun yang hilang, tidak selalu lenyap seperti yang kita duga. Ada banyak sekali jawaban dari tempat-tempat yang hilang.”</p>
+            </a>
+            </div>
+
+            <div class="box">
+            <a href="sinopsis/sinopsis5.html">
+                <img src="img/im5.png" alt="5">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>A05 Bulan - Tere Liye</h3>
+                <p>“Tidak ada yang mengalahkan ketulusan berbuat baik, pertolongan akan selalu datang”</p>
+            </a>
+            </div>
+
+            <div class="box">
+            <a href="sinopsis/sinopsis6.html">
+                <img src="img/im6.png" alt="6">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>A06 Selamat Tinggal - Tere Liye</h3>
+                <p>Apalah arti kehilangan, ketika kami sebenarnya menemukan banyak saat kehilangan dan sebaliknya, kehilangan banyak pula saat menemukan?</p>
+            </a>
+            </div>
+
+            <div class="box">
+            <a href="sinopsis/sinopsis7.html">
+                <img src="img/im7.png" alt="7">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>A07 Luka Cita - Valerie Patkar</h3>
+                <p>Gue percaya karya yang baik nggak cuma datang dari orang yang berpengalaman, tapi juga dari orang yang bekerja keras.</p>
+            </a>
+            </div>
+
+            <div class="box">
+            <a href="sinopsis/sinopsis8.html">
+                <img src="img/im8.png" alt="8">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>A08 Cantik Itu Luka - Eka Kurniawan</h3>
+                <p>Nasib anak-anak manusia dalam gelombang sejarah bangsa. Manusia-manusia yang telah menjadi korban kekuasaan dan ‘kutukan karma’.</p>
+            </a>
+            </div>
+
+            <div class="box">
+            <a href="sinopsis/sinopsis9.html">
+                <img src="img/im9.png" alt="9">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>A09 Dear Nathan : Hello Salma - Erisca Febriani</h3>
+                <p>Genggaman tangan itu adalah rumah yang membuatnya aman.</p>
+            </a>
+            </div>
+        </section>
+        <!--akhir course section--> 
+
+        <!--awal footer section-->
+        <section class="footer">
+            <div class="box-container">
+                <div class="box">
+                    <h3>Ruang Baca</h3>
+                    <p>Gedung J Fakultas Komunikasi dan Informatika, Kampus 2 Universitas Muhammadiyah Surakarta.</p>
+                </div>
+
+                <div class="box">
+                    <h3>layanan terbaik</h3>
+                    <a href="home.html">koleksi buku</a>
+                    <a href="form_input.php">ruang pinjam</a>
+                    <a href="data_display.php">data pinjam</a>
+                </div>
+
+                <div class="box">
+                    <h3>operasional layanan</h3>
+                    <p>Senin-Jumat 08.00 - 16.00 WIB</p>
+                    <p>Sabtu-Minggu 09.00 - 15.30 WIB</p>
+                    <p>Cuti Bersama dan Libur Nasional Tutup</p>
+                </div>
+
+                <div class="box">
+                    <h3>contact us</h3>
+                    <p><i class="fas fa-envelope"></i>l200220021@student.ums.ac.id</p>
+                    <p><i class="fas fa-envelope"></i>l200220037@student.ums.ac.id</p>
+                    <p><i class="fas fa-map-marker-alt"></i>Indonesia, Jawa Tengah, Surakarta</p>
+                </div>
+            </div>
+            <div class="credit"> thank you for visit our Ruang Baca</div>
+        </section>
+        <!--akhir footer section-->
+    </div>
+
+    <!-- menghubungkan file JS eksternal untuk menambahkan interaktivitas atau fungsionalitas tambahan ke halaman. -->
+    <script src="js/script.js"></script>
+</body>
+</html>

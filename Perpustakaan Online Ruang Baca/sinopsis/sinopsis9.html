@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- karakter encoding yang digunakan adalah UTF-8 -->
+    <meta charset="UTF-8">
+    <!-- Mengatur kompatibilitas IE agar menggunakan mode Edge. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Mengatur viewport untuk responsivitas pada perangkat mobile. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Menyertakan file CSS eksternal untuk styling. -->
+    <link rel="stylesheet" href="../style.css">
+    <!-- Menyertakan library Font Awesome untuk ikon. -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- judul halaman yang akan ditampilkan pada tab browser. -->
+    <title>Project</title>
+</head>
+
+<body>
+    <style>
+    body, html {
+        height: 100%;
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+    
+    .container {
+        width: 80%;
+        margin: auto;
+    }
+    
+    .course .box p {
+        text-align: justify;
+    }
+    </style>
+
+
+    <!-- elemen div sebagai wadah utama kelas "container". -->
+    <div class="container">
+        <!--awal header-->
+        <header>
+            <!-- ink ke halaman home dengan kelas "logo". -->
+            <!-- Menggunakan elemen span untuk memisahkan teks "Ruang" dan "Baca". -->
+            <a href="../home.html" class="logo"><span>Ruang</span>Baca</a>
+            <!-- Div dengan ikon menu dari Font Awesome (fas fa-bars). -->
+            <div id="menu" class="fas fa-bars"></div>
+            <!-- Elemen navigasi dengan kelas "navbar". -->
+            <nav class="navbar">
+                <!-- Link ke halaman form input dengan teks "ruang pinjam". -->
+                <a href="../form_input.php">ruang pinjam</a>
+                <!-- Link ke halaman data display dengan teks "data pinjam". -->
+                <a href="../data_display.php">data pinjam</a>
+                <!-- Link ke halaman anggota dengan teks "our team". -->
+                <a href="../anggota.html">our team</a>
+            </nav>
+        </header>
+        <!--akhir header-->
+
+        <div class="content">
+            <!-- <br><h3>Sinopsis Novel Hujan</h3><br> -->
+        </div>
+
+        <section class="home">
+            <!-- Elemen div dengan kelas "content". -->
+            <div class="content">
+                <br><h3>Sinopsis Novel Dear Nathan Hello Salma <br>- Erisca Febriani -</h3><br>
+            </div>
+        </section>
+
+        <section class="course">
+            <!-- kontainer untuk setiap buku. -->
+            <div class="box">
+                <!-- Gambar buku dengan sumber img1.png dan atribut alt "1". -->
+                <div class="img1">
+                    <img src="../img/sin9.png" alt="9">
+                </div>
+                <!-- Paragraf dengan deskripsi atau kutipan dari buku. -->
+                <p>
+                <br>Nathan yang merupakan sosok laki-laki bad boy, tampan, kaya dan merupakan sosok idola di SMA Garuda.
+                Nathan menyukai gadis bernama Salma. Berbeda dengan Nathan Salma memiliki sikap yang baik, pintar, pendiam dan aktif di berbagai organisasi di sekolahnya.
+                Hubungan mereka baik-baik saja sampai suatu hari terjadi sesuatu yang menyebabkan Salma dengan mudahnya memutuskan Nathan.
+                Dan dari kejadian itu pula Nathan di keluarkan dari sekolahnya.<br><br>
+                Dan mereka akhirnya mengakhiri hubungan dengan kata lain putus.
+                Dan di ceritakan pula kehidupan Nathan di sekolah barunya ia mengenal sosok gadis bernama Rebecca.
+                Dan ia merupakan sosok baru yang hadir. Dan hal tersebut membuat para pembaca penasaran. Bagaimanakah kelanjutan kisah Nathan dan Salma? Apakah mereka akan kembali menjalin hubungan.
+                </p>
+                <section class="footer">
+                    <center><a href="../form_input.php" class="btn">Pinjam Buku</a></center>
+                </section>
+            </div>
+        </section>
+
+        <!--awal footer section-->
+        <section class="footer">
+            <div class="box-container">
+                <div class="box">
+                    <h3>Ruang Baca</h3>
+                    <p>Gedung J Fakultas Komunikasi dan Informatika, Kampus 2 Universitas Muhammadiyah Surakarta.</p>
+                </div>
+
+                <div class="box">
+                    <h3>layanan terbaik</h3>
+                    <a href="../home.html">koleksi buku</a>
+                    <a href="../form_input.php">ruang pinjam</a>
+                    <a href="../data_display.php">data pinjam</a>
+                </div>
+
+                <div class="box">
+                    <h3>operasional layanan</h3>
+                    <p>Senin-Jumat 08.00 - 16.00 WIB</p>
+                    <p>Sabtu-Minggu 09.00 - 15.30 WIB</p>
+                    <p>Cuti Bersama dan Libur Nasional Tutup</p>
+                </div>
+
+                <div class="box">
+                    <h3>contact us</h3>
+                    <p><i class="fas fa-envelope"></i>l200220021@student.ums.ac.id</p>
+                    <p><i class="fas fa-envelope"></i>l200220037@student.ums.ac.id</p>
+                    <p><i class="fas fa-map-marker-alt"></i>Indonesia, Jawa Tengah, Surakarta</p>
+                </div>
+            </div>
+            <div class="credit"> thank you for visit our Ruang Baca</div>
+        </section>
+        <!--akhir footer section-->
+    </div>
+
+    <!-- menghubungkan file JS eksternal untuk menambahkan interaktivitas atau fungsionalitas tambahan ke halaman. -->
+    <script src="../js/script.js"></script>
+</body>
+</html>
